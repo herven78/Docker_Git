@@ -17,3 +17,7 @@ sudo apt install -y git
 docker --version
 git --version
 
+# Ajoutez l'utilisateur courant au groupe Docker en utilisant la commande suivante (remplacez votre_utilisateur par le nom de votre utilisateur) :
+
+sudo usermod -aG docker votre_utilisateur
+

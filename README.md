@@ -15,4 +15,13 @@ chmod +x install_docker_git.sh
 4- Exécutez le script avec les privilèges d'administration (ou en utilisant sudo) :
 ./install_docker_git.sh
 
-Le script mettra à jour les paquets existants, installera Docker, le démarrera et l'activera au démarrage, puis installera Git. Enfin, il affichera les versions de Docker et Git pour confirmer l'installation réussie. 
+Le script mettra à jour les paquets existants, installera Docker, le démarrera et l'activera au démarrage, puis installera Git. 
+Enfin, il affichera les versions de Docker et Git pour confirmer l'installation réussie. 
+
+5- Assurez-vous d'être connecté en tant qu'utilisateur disposant des privilèges d'administration ou utilisez sudo.
+Ajoutez l'utilisateur courant au groupe Docker en utilisant la commande suivante (remplacez votre_utilisateur par le nom de votre utilisateur) :
+
+sudo usermod -aG docker votre_utilisateur
+
+NB: Déconnectez-vous de la session actuelle ou redémarrez votre système pour que les modifications prennent effet.
+
