@@ -1,6 +1,6 @@
 # Install_docker_and_git_on_ubuntu
 
-J'ai scripter un code très simple en shell pour installer Docker et Git sur une machine Ubuntu. 
+J'ai scripté un code très simple en shell pour installer Docker et Git sur une machine Ubuntu. 
 Assurez-vous d'exécuter ce script en tant qu'utilisateur disposant des privilèges d'administration (ou utilisez sudo).
 
 Pour utiliser ce script, suivez ces étapes :
